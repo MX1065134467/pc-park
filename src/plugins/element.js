@@ -1,0 +1,109 @@
+import Vue from 'vue'
+import {
+  Pagination,
+  Dialog,
+  Autocomplete,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Input,
+  Radio,
+  RadioGroup,
+  Checkbox,
+  CheckboxGroup,
+  Switch,
+  Tooltip,
+  Select,
+  Option,
+  Button,
+  DatePicker,
+  Breadcrumb,
+  BreadcrumbItem,
+  Form,
+  FormItem,
+  Tabs,
+  TabPane,
+  Icon,
+  Row,
+  Col,
+  Upload,
+  Progress,
+  Card,
+  Collapse,
+  CollapseItem,
+  Container,
+  Header,
+  Main,
+  Image,
+  Loading,
+  Message,
+  MessageBox,
+  Popover,
+  Table,
+  TableColumn,
+  Cascader,
+  Tree,
+  InputNumber,
+  TimePicker,
+  Notification,
+  InfiniteScroll
+} from 'element-ui'
+
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Autocomplete)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Input)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Switch)
+Vue.use(Tooltip)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Button)
+Vue.use(DatePicker)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Icon)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Upload)
+Vue.use(Progress)
+Vue.use(Card)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Image)
+Vue.use(Popover)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Cascader)
+Vue.use(Tree)
+Vue.use(InputNumber)
+Vue.use(TimePicker)
+Vue.use(Loading.directive)
+Vue.use(InfiniteScroll)
+
+Vue.prototype.$loading = Loading.service
+Vue.prototype.$message = Message
+Vue.prototype.$MessageBox = MessageBox
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.prototype.$notify = Notification

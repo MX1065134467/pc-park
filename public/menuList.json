@@ -1,0 +1,135 @@
+[
+  {
+    "name": "人工收费",
+    "logo": "resource.png",
+    "submenu": [
+      {
+        "name": "待收费",
+        "path": "/artificailCharge/charge-await"
+      }, {
+        "name": "交班对账",
+        "path": "/artificailCharge/account-checking"
+      }, {
+        "name": "收费记录",
+        "path": "/artificailCharge/charge-record"
+      }
+    ]
+  }, {
+    "name": "车位卡售卖",
+    "logo": "ticket.png",
+    "submenu": [
+      {
+        "name": "可售列表",
+        "path": "/parkingCardSell/sale-list"
+      }, {
+        "name": "售卡记录",
+        "path": "/parkingCardSell/sale-record"
+      }
+    ]
+  }, {
+    "name": "数据分析",
+    "logo": "order.png",
+    "submenu": [
+      {
+        "name": "首页",
+        "path": "/dataAnalysis/index"
+      }, {
+        "name": "数据报表",
+        "path": "/dataAnalysis/report"
+      }, {
+        "name": "数据分析统计",
+        "path": "/dataAnalysis/count"
+      }
+    ]
+  }, {
+    "name": "基础设施",
+    "logo": "car.png",
+    "submenu": [
+      {
+        "name": "设备类型",
+        "path": "/basicFacility/equip-type"
+      }, {
+        "name": "停车库管理",
+        "path": "/basicFacility/park-manage"
+      }, {
+        "name": "设备管理",
+        "path": "/basicFacility/equip-manage"
+      }
+    ]
+  }, {
+    "name": "运营管理",
+    "logo": "data.png",
+    "submenu": [
+      {
+        "name":"VIP白名单",
+        "path":"/operationsManage/white-list"
+      },{
+        "name":"酒店异业合作",
+        "path":"/operationsManage/hotel-cooperation"
+      }, {
+        "name": "黑名单",
+        "path": "/operationsManage/black-list"
+      }, {
+        "name": "计费规则",
+        "path": "/operationsManage/accounting-rules"
+      }, {
+        "name": "车位卡",
+        "path": "/operationsManage/parking-card"
+      }, {
+        "name":"停车记录",
+        "path":"/operationsManage/parking-record"
+      }, {
+        "name": "缴费记录",
+        "path": "/operationsManage/payment-record"
+      }, {
+        "name": "用户车位卡",
+        "path": "/operationsManage/user-parking-card"
+      }
+    ]
+  }, {
+    "name": "用户管理",
+    "logo": "money.png",
+    "submenu": [
+      {
+        "name": "用户管理",
+        "path": "/userManage/index"
+      }
+    ]
+  }, {
+    "name": "系统管理",
+    "logo": "personal.png",
+    "submenu": [
+      {
+        "name": "个人中心",
+        "path": "/system/my-center"
+      }, {
+        "name": "操作日志",
+        "path": "/system/log"
+      }, {
+        "name": "账户管理",
+        "path": "/system/account"
+      }, {
+        "name": "系统管理",
+        "path": "/system/manage"
+      }, {
+        "name": "角色管理",
+        "path": "/system/role"
+      }
+    ]
+  }, {
+    "name": "平台管理",
+    "logo": "personal.png",
+    "submenu": [
+      {
+        "name": "停车场管理",
+        "path": "/plateform/parking-manage"
+      }, {
+        "name": "平台账户",
+        "path": "/plateform/plate-account"
+      }, {
+        "name": "菜单管理",
+        "path": "/plateform/menu-manage"
+      }
+    ]
+  }
+]
